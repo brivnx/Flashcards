@@ -40,6 +40,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="frontLabel" destination="AJX-g9-sfo" id="UFj-O8-qo8"/>
                         <segue destination="K4V-qG-gvW" kind="showDetail" identifier="Secondviewsegue" id="Ini-5X-SDP"/>
                     </connections>
                 </viewController>
@@ -68,6 +69,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="cGE-2v-Ez2"/>
                     </view>
+                    <connections>
+                        <outlet property="backLabel" destination="Gca-BS-8j6" id="ARn-1M-nuZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TpD-Nb-LZN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

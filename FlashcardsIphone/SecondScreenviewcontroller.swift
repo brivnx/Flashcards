@@ -7,9 +7,13 @@
 //
 
 import UIKit
+
+
 //This is the slide the user will see once they press the button. The answer to the question
 class SecondScreenviewcontroller: UIViewController {
 
+    @IBOutlet weak var frontLabel: UILabel!
+    @IBOutlet weak var backLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

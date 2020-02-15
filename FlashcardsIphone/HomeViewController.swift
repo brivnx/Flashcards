@@ -9,7 +9,10 @@
 import UIKit
 //The first view of what the user will see
 class HomeViewController: UIViewController {
-
+    
+    @IBOutlet weak var frontLabel: UILabel!
+    @IBOutlet weak var backLabel: UILabel!
+    
     @IBAction func NextSlideButton(_ sender: Any) {
     //This will allow for when the user taps on the button the slide can transfer to the next view controller
         self.performSegue(withIdentifier: "Secondviewsegue", sender: self)
