@@ -9,7 +9,7 @@ This app will display the question "What is the best iPhone?". Once you tap on t
 ### App Walk-though
 `TODO://` 
 
-<img src="https://recordit.co/hJmEfT64hL" width=200><br>
+https://recordit.co/hJmEfT64hL
 
 `TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
