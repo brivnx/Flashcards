@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondScreenviewcontroller.swift
 //  FlashcardsIphone
 //
 //  Created by Brian dominick on 2/14/20.
@@ -7,8 +7,8 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
+//This is the slide the user will see once they press the button. The answer to the question
+class SecondScreenviewcontroller: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,4 +17,3 @@ class ViewController: UIViewController {
 
 
 }
-
